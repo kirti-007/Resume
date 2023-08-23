@@ -77,6 +77,15 @@ h1{
     border-radius: 100px;
     
 }
+@media (max-width: 790px) {
+    .header{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .headerlink{
+        flex-direction: column;
+    }
+}
 .about{
     display: flex;
     flex-direction: column;
