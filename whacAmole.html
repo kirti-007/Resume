@@ -33,7 +33,7 @@
             text-align: center;
             gap: 1rem;
             border: 1px solid rgba(255, 67, 155, 0.96);
-            background-color: rgba(239, 232, 115, 0.73);
+            background-color: rgba(243, 230, 18, 0.81);
             font-size: 1.3rem;
             border-top-left-radius: 50px;
         }
@@ -59,6 +59,35 @@
             background-color: rgb(204, 216, 239);
             color: rgb(237, 33, 81);
             border: 2px solid black;
+        }
+        @media (max-width: 1000px) {
+            .desc{
+                width: 60%;
+            }
+            h2{
+                background-color: black;
+                padding: 0;
+            }
+        }
+        @media (max-width: 500px) {
+            .desc{
+                width: 80%;
+            }
+            h2{
+                font-size: 1.7rem;
+            }
+        }
+        @media (max-width: 350px) {
+            .desc{
+                width: 90%;
+            }
+            
+        }
+        @media (max-width: 400px) {
+            .total{
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
         }
     </style>
 </head>
