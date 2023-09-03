@@ -47,7 +47,7 @@
         text-decoration: none;
     }
     .leetcode{
-        fill: #edf2fb;
+        font-size: 1.8rem;
     }
     .lightdark{
         display: flex;
@@ -508,9 +508,6 @@
     }
     .lightmode .headerlink a{
         color: #001d3d;
-    }
-    .lightmode .leetcode{
-        fill: #001d3d;
     }
     @media (max-width:1000px) {
         .lightmode h1{
