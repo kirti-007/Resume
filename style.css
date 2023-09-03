@@ -39,12 +39,22 @@
     .headerlink{
         width: 20%;
         display: flex;
-        gap: 1rem;  
-        color: #ff758f;
+        gap: 0.6rem;  
+        color: #edf2fb;
     }
     .headerlink a{
-        color: #ff758f;
+        color: #edf2fb;
         text-decoration: none;
+    }
+    .leetcode{
+        fill: #edf2fb;
+    }
+    .lightdark{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-between;
+        text-align: center;
     }
     .pic{
         width: 90%;
@@ -428,10 +438,21 @@
         font-size: 1.1rem;
     }
 
+    .button{
+        width: 35px;
+        background-color: transparent;
+        background-image: url('sun.png');
+        background-size: 93%;
+        height: 35px;
+        border-radius: 50px;
+        border: 2px solid #ffbe0b;
+        box-shadow: 0 0 17px #d0d1ff;
+        filter: drop-shadow(20px 0 14px #d0d1ff);
+    }
+
     .lightmode{
         background-image: url('bglight.jpg');
         color: black;
-
     }
 
     .lightmode h1{
@@ -447,7 +468,7 @@
         border: 1px solid #023e7d;
     }
     .lightmode .pic{
-        color: #23035e;
+        color: #023e7d;
     }
     .lightmode h2{
         background: linear-gradient(to right, #14fe4f, #f21b51, #083fe5);
@@ -460,12 +481,12 @@
         box-shadow: 0 0 5px #023e7d;
     }
     .lightmode .same{
-        background-color: #d7e3fc;
-        border: 1.5px solid #abc4ff;
-        box-shadow: 2px 2px 2px #457b9d;
+        background-color: #89c2d9;
+        border: 1.5px solid #002855;
+        box-shadow: 2px 2px 4px #a480cf;
     }
     .lightmode .same h3{
-        color: #457b9d;
+        color: #023e7d;
     }
     .lightmode #Internshala:hover{
         background-color: #457b9d;
@@ -475,4 +496,27 @@
     }
     .lightmode #aicte:hover{
         background-color: #457b9d;
+    }
+    .lightmode .button{
+        background-image: url('moon.avif');
+        border: 2px solid #d6e2e9;
+        box-shadow: 0 0 12px #0d1321;
+        filter: drop-shadow(20px 0 14px #252323);
+    }
+    .lightmode .headerlink{
+        color: #001d3d;
+    }
+    .lightmode .headerlink a{
+        color: #001d3d;
+    }
+    .lightmode .leetcode{
+        fill: #001d3d;
+    }
+    @media (max-width:1000px) {
+        .lightmode h1{
+            background-color: #bde0fe;
+        }
+        .lightmode .img{
+            background-color: #bde0fe;
+        }
     }

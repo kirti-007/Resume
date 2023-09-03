@@ -17,3 +17,13 @@ let container = document.querySelector(".container");
 function mode(){
   container.classList.toggle("lightmode");
 }
+
+// function change(){
+//   var img = document.getElementById("img").src
+//   if(img){
+//     document.getElementById("img").src = 'moon.jpg'
+//   } else if(!img){
+//     document.getElementById("img").src = 'sun.png'
+//     alert(img)
+//   }
+// }
