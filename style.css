@@ -40,10 +40,10 @@ h1{
     width: 20%;
     display: flex;
     gap: 1rem;  
-    color: #C2ADFF;
+    color: #b5179e ;
 }
 .headerlink a{
-    color: #C2ADFF;
+    color: #b5179e ;
     text-decoration: none;
 }
 .pic{
@@ -364,6 +364,7 @@ h1{
     flex-direction: column;
     gap: 4rem;
     align-items: center;
+    padding-bottom: 3rem;
 }
 .projectdesc{
     display: flex;
@@ -415,4 +416,11 @@ h1{
     .projects{
         width: 94%;
     }
+}
+.footer{
+    background-color: #333533;
+    padding: 0.8rem 0.2rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.1rem;
 }
