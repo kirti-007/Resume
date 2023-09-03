@@ -12,3 +12,8 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 1200); 
 } 
+
+let container = document.querySelector(".container");
+function mode(){
+  container.classList.toggle("lightmode");
+}
