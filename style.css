@@ -447,7 +447,7 @@
         border-radius: 50px;
         border: 2px solid #ffbe0b;
         box-shadow: 0 0 17px #d0d1ff;
-        filter: drop-shadow(20px 0 14px #d0d1ff);
+        filter: drop-shadow(15px -11px 7px #d0d1ff);
     }
 
     .lightmode{
@@ -501,7 +501,7 @@
         background-image: url('moon.avif');
         border: 2px solid #d6e2e9;
         box-shadow: 0 0 12px #0d1321;
-        filter: drop-shadow(20px 0 14px #252323);
+        filter: drop-shadow(-13px -7px 8px #252323);
     }
     .lightmode .headerlink{
         color: #001d3d;
