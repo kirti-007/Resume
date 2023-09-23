@@ -450,7 +450,7 @@
         border-radius: 50px;
         border: 2px solid #ffbe0b;
         box-shadow: 0 0 17px #d0d1ff;
-        filter: drop-shadow(15px -11px 7px #d0d1ff);
+        filter: drop-shadow(10px -8px 5px #d7d7d7);
     }
 
     .lightmode{
